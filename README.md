@@ -64,7 +64,7 @@ GET /api/senha/gerar
 
 #### 🔹 Exemplo de Requisição:
 ```http
-GET http://localhost:8080/api/senha/gerar?length=16&useUpper=true&useNumbers=true&useSpecial=true
+GET http://localhost:8080/api/senha/gerar?tamanho=16&usarMaiusculas=true&usarMinusculas=true&usarNumeros=true&usarEspeciais=true
 ```
 #### 🔹 Exemplo de Resposta:
 ```json
